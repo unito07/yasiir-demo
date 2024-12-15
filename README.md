@@ -1,41 +1,18 @@
 # Yasiir Demo
-A ride-hailing platform demo built with Next.js, Java Spring Boot, and PostgreSQL.
+A ride-hailing platform demo with Java Spring Boot backend and Next.js frontend.
+
+## Structure
+- /frontend - Next.js application
+- /backend - Java Spring Boot 
+- /docs - Documentation
 
 ## Tech Stack
-- Frontend: Next.js, Tailwind CSS
+- Frontend: Next.js, Tailwind
 - Backend: Java Spring Boot
 - Database: PostgreSQL
-- Hosting: Cloudflare, Render, ElephantSQL
+- Hosting: Cloudflare, Render
 
-## Project Structure
-```
-yasiir-demo/
-├── frontend/          # Next.js frontend
-├── backend/           # Java Spring Boot
-└── docs/             # Documentation
-```
-
-## Development Phases
-1. User Authentication
-   - Registration/Login
-   - Profile Management
-   - Role-based Access
-
-2. Location Services
-   - Map Integration
-   - Real-time Tracking
-
-3. Booking System
-   - Ride Requests
-   - Driver Matching
-   - Payments
-
-4. Real-time Features
-   - Live Location
-   - Chat System
-   - Notifications
-
-## Setup
+## Development
 1. Clone repository
 2. Install dependencies
 3. Configure environment
